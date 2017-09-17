@@ -1,0 +1,92 @@
+{
+    "Type":
+    [
+        { 
+            "id": "1",
+            "instruct": "Select your answer.",
+            "multiple": "0",
+            "attachment": ""
+        },    
+        { 
+            "id": "2",
+            "instruct": "Select all that apply.",
+            "multiple": "1",
+            "attachment": ""
+        },
+        { 
+            "id": "3",
+            "instruct": "Select all that apply.",
+            "multiple": "1",
+            "attachment": ""
+        },
+        { 
+            "id": "4",
+            "instruct": "True or False?",
+            "multiple": "0",  
+            "attachment": ""
+        },    
+        { 
+            "id": "5",
+            "instruct": "Type your answer below.",
+            "multiple": "0",
+            "attachment": ""
+        }
+    ],
+    "Reference":
+    [
+        {
+            "id": "ISDN1",
+            "apa": "APA format goes here"
+        },
+        {
+            "id": "ISDN2",
+            "apa": "APA format goes here."
+        },
+        {
+            "id": "OTHERSOURCETYPE",
+            "apa": "APA format goest here"
+        }
+    ],
+    "Question":
+    [
+        {
+            "typeID": "1",
+            "question": "A one answer question",
+            "a": "first choice",
+            "b": "second choice",
+            "c": "third choice",
+            "d": "forth choice",
+            "e": "...",
+            "answer": ["c"],
+            "allnoneabove": "0",
+            "domain": "Any",
+            "referenceID": "ISDN1"
+        },
+        {
+            "typeID": "2",
+            "question": "A muultiple answer question",
+            "a": "is it a?",
+            "b": "is it b?",
+            "c": "is it c?",
+            "d": "All of the above",
+            "e": "",
+            "answer": ["a","c","d"],
+            "allnoneabove": "1",
+            "domain": "Any",
+            "referenceID": "ISDN2"
+        },
+        {
+            "typeID": "4",
+            "question": "A T/F question",
+            "a": "True",
+            "b": "False",
+            "c": "",
+            "d": "",
+            "e": "",
+            "answer": ["b"],
+            "allnoneabove": "0",
+            "domain": "Any",
+            "referenceID": "OTHERSOURCETYPE"
+        }
+    ]
+}
